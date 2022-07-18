@@ -1,0 +1,168 @@
+body {
+  box-sizing: border-box;
+  background-color: #a8f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* |||||||||||||||||    NAVBAR    |||||||||||||||||||| */
+.main-nav {
+  align-items: center;
+  background-color: #42c2ff;
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+  padding: 15px;
+  width: 100%;
+}
+
+.nav-logo {
+  align-items: center;
+  display: inline-flex;
+  width: 30%;
+}
+
+.nav-links {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+  width: 70%;
+}
+.nav-links ul {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 1rem;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+}
+
+.nav-links ul li {
+  list-style: none;
+  margin: 0rem 1rem;
+  text-decoration: none;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+/* |||||||||||||||||    HomePage    |||||||||||||||||||| */
+.home-component-container {
+  padding: 3rem;
+  text-align: center;
+}
+
+.home-component-container p {
+  margin: auto auto 2rem;
+  width: 100%;
+}
+
+.home-component-container hr {
+  height: 2px;
+  margin: auto auto 3rem;
+  width: 50%;
+}
+
+/* |||||||||||||||||    Search Form Component    |||||||||||||||||||| */
+.search-div {
+  border-color: #4797b1;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  margin: auto auto;
+  max-width: 500px;
+  padding: 2rem;
+  width: 70%;
+}
+
+/* |||||||||||||||||    Profile Page  |||||||||||||||||||| */
+.profile-container {
+  position: relative;
+  padding: 2rem;
+  min-height: 300px;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-info-container {
+  position: relative;
+}
+
+.user-container .btn {
+  bottom: 2rem;
+  right: 2rem;
+  position: absolute;
+}
+
+.profile-pic {
+  display: inline-flex;
+  border-radius: 10%;
+  box-shadow: 3px 3px 4px 0px;
+  width: 17rem;
+}
+
+/* |||||||||||||||||    Create / Edit Page  |||||||||||||||||||| */
+.profile-preview {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* |||||||||||||||||    Search Results  |||||||||||||||||||| */
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* |||||||||||||||||    Blog Space |||||||||||||||||||| */
+.blogButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-summary-div {
+  border: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.create-blog-form {
+  background-color: #42c2ff;
+  border-radius: 20px;
+  border: solid 1px #339dce;
+  box-shadow: 0px 0px 20px 15px white;
+  width: 70%;
+  padding: 1.5rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.blog-readmore-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.blog-edit-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.blog-footer-div {
+  background-color: #42c2ff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
